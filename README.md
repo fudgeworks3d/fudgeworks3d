@@ -1,16 +1,26 @@
-## Hi there 👋
+Hi there! 👋 I'm Alfie
 
-<!--
-**fudgeworks3d/fudgeworks3d** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m a 9-year-old aspiring entrepreneur and inventor! I love creating cool things with my 3D printer and sharing them with the world.
 
-Here are some ideas to get you started:
+💡 What I do:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Run my own online 3D printed business
+
+Explore new ideas, inventions, and projects
+
+Learn coding, design, and problem-solving
+
+💖 My mission:
+I’m passionate about helping charities. That’s why I donate part of every sale from my business to causes that make the world a better place.
+
+🚀 Why GitHub?
+I use GitHub to:
+
+Share my projects
+
+Keep track of ideas
+
+Show the world what a 9-year-old can create!
+
+🌟 Fun fact:
+I believe anyone can make a difference, no matter how young they are!
