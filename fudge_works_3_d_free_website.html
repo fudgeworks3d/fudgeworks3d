@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FudgeWorks 3D</title>
+  <style>
+    :root {
+      --orange: #ff9f1c;
+      --yellow: #ffd166;
+      --blue: #1e90ff;
+      --dark-blue: #0b3c5d;
+      --light-bg: #f5f9ff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--light-bg);
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--orange), var(--yellow));
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: var(--dark-blue);
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    nav {
+      background: var(--dark-blue);
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card h3 {
+      color: var(--blue);
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: var(--blue);
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: var(--dark-blue);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer small {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+   <img src="images/a7cadc3d-ea4d-4653-a541-ac42f507ead3.jpg" alt="FudgeWorks 3D Logo">
+    <p>Cool, colourful 3D prints made just for you</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#order">Order</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About FudgeWorks 3D</h2>
+    <p>
+      Hi! I’m Alfie 👋 I run <strong>FudgeWorks 3D</strong>, a small business creating cool 3D printed items.
+      Everything is designed or printed by me using my 3D printer. Perfect for gifts, toys, and custom ideas!
+    </p>
+  </section>
+
+  <section id="products">
+    <h2>What I Make</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Keyrings</h3>
+        <p>Custom names, colours, and shapes.</p>
+      </div>
+      <div class="card">
+        <h3>Fidgets</h3>
+        <p>Fun, colourful, and satisfying designs.</p>
+      </div>
+      <div class="card">
+        <h3>Toys & Models</h3>
+        <p>Cool figures and builds made layer by layer.</p>
+      </div>
+      <div class="card">
+        <h3>Custom Prints</h3>
+        <p>Have an idea? I can try printing it!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="order">
+    <h2>How to Order</h2>
+    <p>
+      To order something, send me a message with:
+    </p>
+    <ul>
+      <li>What item you want</li>
+      <li>Colour choice</li>
+      <li>Name or custom text (if needed)</li>
+    </ul>
+    <a class="button" href="#contact">Message Me</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      📧 Email: fudgeworks3d@gmail.com<br />
+      📸 Instagram: @fudgeworks3d
+    </p>
+  </section>
+
+  <footer>
+    <small>© 2026 FudgeWorks 3D · Built by Alfie</small>
+  </footer>
+
+</body>
+</html>
